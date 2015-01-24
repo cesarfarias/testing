@@ -13,6 +13,8 @@
 		1994F3121A7310560088FED4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1994F3111A7310560088FED4 /* Images.xcassets */; };
 		1994F3151A7310560088FED4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1994F3131A7310560088FED4 /* LaunchScreen.xib */; };
 		1994F3211A7310560088FED4 /* testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1994F3201A7310560088FED4 /* testTests.swift */; };
+		1994F32B1A7312B30088FED4 /* SagradaFamilia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1994F32A1A7312B30088FED4 /* SagradaFamilia.jpeg */; };
+		1994F32D1A73180C0088FED4 /* AlbertEinsteinStamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1994F32C1A73180C0088FED4 /* AlbertEinsteinStamp.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		1994F31A1A7310560088FED4 /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1994F31F1A7310560088FED4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1994F3201A7310560088FED4 /* testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testTests.swift; sourceTree = "<group>"; };
+		1994F32A1A7312B30088FED4 /* SagradaFamilia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SagradaFamilia.jpeg; sourceTree = "<group>"; };
+		1994F32C1A73180C0088FED4 /* AlbertEinsteinStamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlbertEinsteinStamp.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		1994F3081A7310560088FED4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1994F32C1A73180C0088FED4 /* AlbertEinsteinStamp.jpg */,
+				1994F32A1A7312B30088FED4 /* SagradaFamilia.jpeg */,
 				1994F3091A7310560088FED4 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +199,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1994F3101A7310560088FED4 /* Main.storyboard in Resources */,
+				1994F32B1A7312B30088FED4 /* SagradaFamilia.jpeg in Resources */,
+				1994F32D1A73180C0088FED4 /* AlbertEinsteinStamp.jpg in Resources */,
 				1994F3151A7310560088FED4 /* LaunchScreen.xib in Resources */,
 				1994F3121A7310560088FED4 /* Images.xcassets in Resources */,
 			);
@@ -407,6 +415,7 @@
 				1994F3261A7310560088FED4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1994F3271A7310560088FED4 /* Build configuration list for PBXNativeTarget "testTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +424,7 @@
 				1994F3291A7310560088FED4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
